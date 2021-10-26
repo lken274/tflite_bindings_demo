@@ -1,0 +1,57 @@
+/// @description Insert description here
+// You can write your code in this editor
+room_speed = 240;
+reset_image_state();
+
+estimated_char = -1;
+other_possibilities = ds_list_create()
+char_map = ds_map_create();
+highest_confidence = 0;
+
+ds_map_add(char_map, 0, 48)
+ds_map_add(char_map,1,49)
+ds_map_add(char_map,2,50)
+ds_map_add(char_map,3,51)
+ds_map_add(char_map,4,52)
+ds_map_add(char_map,5,53)
+ds_map_add(char_map,6,54)
+ds_map_add(char_map,7,55)
+ds_map_add(char_map,8,56)
+ds_map_add(char_map,9,57)
+ds_map_add(char_map,10,65)
+ds_map_add(char_map,11,66)
+ds_map_add(char_map,12,67)
+ds_map_add(char_map,13,68)
+ds_map_add(char_map,14,69)
+ds_map_add(char_map,15,70)
+ds_map_add(char_map,16,71)
+ds_map_add(char_map,17,72)
+ds_map_add(char_map,18,73)
+ds_map_add(char_map,19,74)
+ds_map_add(char_map,20,75)
+ds_map_add(char_map,21,76)
+ds_map_add(char_map,22,77)
+ds_map_add(char_map,23,78)
+ds_map_add(char_map,24,79)
+ds_map_add(char_map,25,80)
+ds_map_add(char_map,26,81)
+ds_map_add(char_map,27,82)
+ds_map_add(char_map,28,83)
+ds_map_add(char_map,29,84)
+ds_map_add(char_map,30,85)
+ds_map_add(char_map,31,86)
+ds_map_add(char_map,32,87)
+ds_map_add(char_map,33,88)
+ds_map_add(char_map,34,89)
+ds_map_add(char_map,35,90)
+ds_map_add(char_map,36,97)
+ds_map_add(char_map,37,98)
+ds_map_add(char_map,38,100)
+ds_map_add(char_map,39,101)
+ds_map_add(char_map,40,102)
+ds_map_add(char_map,41,103)
+ds_map_add(char_map,42,104)
+ds_map_add(char_map,43,110)
+ds_map_add(char_map,44,113)
+ds_map_add(char_map,45,114)
+ds_map_add(char_map,46,116);
